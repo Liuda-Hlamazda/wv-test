@@ -1,0 +1,533 @@
+.wise_vision_team {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 0 78px;
+  justify-content: space-between;
+}
+
+.block_for_information {
+  width: 45%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  color: #1b9dd9;
+  padding-top: 42px;
+  margin: 0;
+}
+
+.for_name {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #494949;
+  display: flex;
+}
+
+.for_name .user_name {
+  width: 245px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.for_name .user_name_active span {
+  animation: transition_name_to_hidden 0.5s ease-in-out !important;
+}
+
+.for_name .user_name span {
+  position: absolute;
+  word-break: break-all;
+  left: 0;
+  animation: transition_name 0.5s ease-in-out;
+}
+
+.for_vertical_line {
+  color: rgba(18, 184, 232, 0.28);
+}
+
+.for_name .for_ceo {
+  display: block;
+  color: #b7b6b6;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.for_name .user_position_active span {
+  animation: transition_position_to_hidden 0.5s ease-in-out !important;
+}
+
+.for_name .for_ceo span {
+  position: absolute;
+  word-break: break-all;
+  left: 22px;
+  animation: transition_position 0.5s ease-in-out;
+}
+
+.block_for_owl_animation {
+  position: absolute;
+  width: 112px;
+  height: 150px;
+  top: -45px;
+  left: 520px;
+  cursor: pointer;
+}
+
+.block_for_owl {
+  z-index: 50;
+  width: 112px;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.none {
+  display: none;
+}
+
+.block_for_lamp {
+  width: 23px;
+  height: 32px;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+}
+
+.none {
+  display: none;
+}
+
+.tooltip {
+  width: 318px;
+  height: 118px;
+  z-index: 1;
+  background: #fff;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #abdcf2;
+  right: 325px;
+  top: 10px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  animation: animation_for_owl_facts 1s ease-in-out;
+  padding: 15px 20px;
+  
+}
+
+.tooltip:before {
+  content: "";
+  position: absolute;
+  right: -19px;
+  top: 26px;
+  width: 25px;
+  background: #fff;
+  height: 14px;
+  border-bottom: 1px solid #000;
+  transform: rotate(90deg);
+  z-index: 1;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border: 1px solid #abdcf2;
+  border-bottom: none;
+
+}
+
+.tooltip_text {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  line-height: 19px;
+  text-align: left;
+  height: 98px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.for_description {
+  font-size: 17px;
+  font-weight: 360;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5d60;
+  line-height: 23.15px;
+  height: 295px;
+  text-align: justify;
+  animation: for_description 0.5s ease-in-out;
+}
+
+.for_description_active {
+  animation: for_description_active 0.5s ease-in-out;
+}
+
+.block_for_hobbies {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.block_for_hobbies div:nth-child(1) {
+  animation: animation_for_hobbies 0.5s ease-in-out;
+}
+.block_for_hobbies div:nth-child(2) {
+  animation: animation_for_hobbies 0.75s ease-in-out;
+}
+.block_for_hobbies div:nth-child(3) {
+  animation: animation_for_hobbies 1s ease-in-out;
+}
+
+.container_for_hobby {
+  border: 1px solid #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 150px;
+  height: 114px;
+  color: #8f8f8f;
+}
+
+.container_for_hobby p {
+  height: 44px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.block_for_photos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+}
+
+.grid_element:nth-child(1) {
+  animation: animation_grid_element_first 0.5s ease-in-out;
+}
+
+.grid_element:nth-child(2) {
+  animation: animation_grid_element_second 1s ease-in-out;
+}
+
+.grid_element:nth-child(3) {
+  animation: animation_grid_element_third 1.25s ease-in-out;
+}
+
+.grid_element:nth-child(4) {
+  animation: animation_grid_element_fourth 0.5s ease-in-out;
+}
+
+.grid_element:nth-child(5) {
+  animation: animation_grid_element_fifth 1s ease-in-out;
+}
+
+.grid_element:nth-child(6) {
+  animation: animation_grid_element_sixth 1.25s ease-in-out;
+}
+
+.personal_img_block {
+  width: 100%;
+  height: 200px;
+  animation: resize_personal_img_block_to_back 0.5s ease-in-out;
+}
+
+.personal_img_block span {
+  width: 100% !important;
+  width: 100% !important;
+}
+.grid_element {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  margin-top: 43px;
+}
+
+.position {
+  position: absolute;
+  padding: 0;
+  width: 200px;
+  height: 250px;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+  animation: resize_photo_to_back 0.5s ease-in-out;
+}
+
+.activeUser {
+  width: 215px;
+  left: -7.5px;
+  top: -15px;
+  animation: resize_photo 0.5s ease-in-out;
+  opacity: 1;
+  height: 265px;
+}
+
+.activeUser .personal_img_block {
+  overflow: hidden;
+  height: 215px;
+  animation: resize_personal_img_block 0.5s ease-in-out;
+}
+
+.personal_img {
+  object-fit: contain;
+  min-width: 100% !important;
+  min-height: 100% !important;
+}
+
+.linkedin span {
+  width: 16px !important;
+  height: 16px !important;
+}
+.linkedin {
+  object-fit: contain;
+  min-width: 16px !important;
+  min-height: 16px !important;
+}
+
+.block_for_description {
+  display: flex;
+  justify-content: space-around;
+  background-color: #b7b6b6;
+  text-align: left;
+  height: 50px;
+  width: 100%;
+}
+
+.block_for_description span {
+  border-radius: 5px !important;
+  background: #fff !important;
+  width: 23px !important;
+  height: 23px !important;
+  margin-top: 10px !important;
+  margin-right: 5px !important;
+}
+
+.for_text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Open Sans";
+  height: 50px;
+  margin: 0 0 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes for_description {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes transition_name {
+  0% {
+    left: 300px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes transition_name_to_hidden {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    left: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes for_description_active {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes transition_position {
+  0% {
+    left: -55px;
+    opacity: 0;
+  }
+  100% {
+    left: 22px;
+    opacity: 1;
+  }
+}
+
+@keyframes transition_position_to_hidden {
+  0% {
+    left: 22px;
+    opacity: 1;
+  }
+  100% {
+    left: -55px;
+    opacity: 0;
+  }
+}
+
+@keyframes resize_photo {
+  0% {
+    opacity: 0.5;
+    width: 200px;
+    height: 250px;
+    left: 0;
+    top: 0;
+  }
+  100% {
+    width: 215px;
+    opacity: 1;
+    height: 265px;
+    left: -7.5px;
+    top: -15px;
+  }
+}
+@keyframes resize_personal_img_block {
+  0% {
+    height: 200px;
+  }
+  100% {
+    height: 215px;
+  }
+}
+@keyframes resize_personal_img_block_to_back {
+  0% {
+    height: 215px;
+  }
+  100% {
+    height: 200px;
+  }
+}
+@keyframes resize_photo_to_back {
+  0% {
+    opacity: 1;
+    width: 215px;
+    height: 215px;
+    left: -7.5px;
+    top: -15px;
+  }
+  100% {
+    opacity: 0.5;
+    height: 200px;
+    width: 200px;
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes animation_for_hobbies {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes animation_grid_element_first {
+  0% {
+    opacity: 0;
+    transform: translateX(1000px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes animation_grid_element_second {
+  0% {
+    opacity: 0;
+    transform: translateX(800px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes animation_grid_element_third {
+  0% {
+    opacity: 0;
+    transform: translateX(600px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes animation_grid_element_fourth {
+  0% {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animation_grid_element_fifth {
+  0% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animation_grid_element_sixth {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes animation_for_owl_facts {
+  0% {
+    opacity: 0;
+    transform: translateX(318px);
+    width: 0;
+  }
+
+  100% {
+    opacity: 1;
+    width: 318px;
+    transform: translateX(0);
+  }
+}
